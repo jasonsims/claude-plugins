@@ -7,6 +7,7 @@
     "fix": "biome check --write .",
     "typecheck": "scripts/typecheck.sh",
     "validate": "scripts/validate.sh",
+    "lint:sh": "shellcheck scripts/*.sh .githooks/*",
     "check": "npm run lint && npm run typecheck && npm run validate"
   },
   "devDependencies": {

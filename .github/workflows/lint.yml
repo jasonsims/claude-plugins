@@ -15,7 +15,6 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npx biome ci .
-      - run: shellcheck scripts/*.sh .githooks/*
       - run: npm i -g @anthropic-ai/claude-code
-      - run: npm run validate
+      - run: npm run check
+      - run: npm run lint:sh
