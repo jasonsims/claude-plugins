@@ -1,0 +1,49 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+  "files": {
+    "includes": ["**", "!**/.claude-plugin/types"]
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 80
+  },
+  "javascript": {
+    "jsxRuntime": "reactClassic",
+    "globals": ["h", "Fragment"],
+    "formatter": {
+      "quoteStyle": "single",
+      "jsxQuoteStyle": "double",
+      "semicolons": "asNeeded",
+      "trailingCommas": "all",
+      "arrowParentheses": "asNeeded"
+    }
+  },
+  "linter": {
+    "rules": {
+      "preset": "recommended",
+      "correctness": {
+        "noUndeclaredVariables": "error",
+        "noUnusedImports": "error",
+        "noUnusedVariables": "warn",
+        "noNodejsModules": "error",
+        "noUnusedFunctionParameters": "off"
+      },
+      "style": {
+        "useImportType": "error",
+        "noNonNullAssertion": "warn"
+      },
+      "suspicious": {
+        "noConsole": "warn"
+      }
+    }
+  },
+  "overrides": [
+    {
+      "includes": ["scripts/**", "*.config.*"],
+      "linter": { "rules": { "correctness": { "noNodejsModules": "off" } } }
+    }
+  ],
+  "assist": { "actions": { "source": { "organizeImports": "on" } } }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "claude-plugins",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "biome check .",
+    "fix": "biome check --write .",
+    "typecheck": "scripts/typecheck.sh",
+    "validate": "scripts/validate.sh",
+    "check": "npm run lint && npm run typecheck && npm run validate"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "typescript": "7.0.2"
+  }
+}

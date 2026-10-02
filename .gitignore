@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+
+# Written by Claude Code on each mod load; build-specific
+plugins/*/.claude-plugin/types/
