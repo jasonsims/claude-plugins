@@ -19,3 +19,11 @@ claude plugin install session-gist@jasonsims
 2. Add commands/skills/agents/hooks under `plugins/<name>/`
 3. Register it in `.claude-plugin/marketplace.json`
 4. `claude plugin validate .`
+
+## Commits
+
+Commits follow [Conventional Commits](https://www.conventionalcommits.org/), enforced in CI. Enable the local hook once per clone:
+
+```sh
+git config core.hooksPath .githooks
+```
