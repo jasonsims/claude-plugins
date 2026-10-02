@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jasonsims",
+  "owner": {
+    "name": "Jason Sims",
+    "email": "hello@jsonsims.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Jason Sims"
+  },
+  "plugins": [
+    {
+      "name": "session-gist",
+      "source": "./plugins/session-gist",
+      "description": "Share Claude Code sessions as GitHub gists",
+      "version": "0.1.0",
+      "author": {
+        "name": "Jason Sims",
+        "email": "hello@jsonsims.com"
+      }
+    }
+  ]
+}
