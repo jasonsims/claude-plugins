@@ -7,6 +7,13 @@ claude plugin marketplace add jasonsims/claude-plugins
 claude plugin install session-gist@jasonsims
 ```
 
+To pick up new versions later:
+
+```sh
+claude plugin marketplace update jasonsims
+claude plugin update session-gist@jasonsims
+```
+
 ## Plugins
 
 | Plugin | Description |
@@ -18,7 +25,11 @@ claude plugin install session-gist@jasonsims
 1. Create `plugins/<name>/.claude-plugin/plugin.json`
 2. Add commands/skills/agents/hooks under `plugins/<name>/`
 3. Register it in `.claude-plugin/marketplace.json`
-4. `claude plugin validate .`
+4. Try it with `claude --plugin-dir plugins/<name>`, then `npm run check`
+
+## Releasing a change
+
+Installs are cached by version, so a change only reaches users when the version goes up. Bump `version` in both the plugin's `plugin.json` and its `marketplace.json` entry; `npm run validate` fails if the two disagree.
 
 ## Commits
 

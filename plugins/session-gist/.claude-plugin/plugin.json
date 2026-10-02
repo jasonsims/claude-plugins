@@ -6,5 +6,8 @@
     "name": "Jason Sims",
     "email": "hello@jsonsims.com"
   },
+  "homepage": "https://github.com/jasonsims/claude-plugins/tree/main/plugins/session-gist",
+  "repository": "https://github.com/jasonsims/claude-plugins",
+  "keywords": ["session", "summary", "status", "haiku", "mod"],
   "types": "./types/index.d.ts"
 }
