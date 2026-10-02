@@ -42,7 +42,12 @@
   "overrides": [
     {
       "includes": ["scripts/**", "*.config.*"],
-      "linter": { "rules": { "correctness": { "noNodejsModules": "off" } } }
+      "linter": {
+        "rules": {
+          "correctness": { "noNodejsModules": "off" },
+          "suspicious": { "noConsole": "off" }
+        }
+      }
     }
   ],
   "assist": { "actions": { "source": { "organizeImports": "on" } } }
