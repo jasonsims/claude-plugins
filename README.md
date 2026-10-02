@@ -11,7 +11,7 @@ claude plugin install session-gist@jasonsims
 
 | Plugin | Description |
 | --- | --- |
-| [session-gist](plugins/session-gist) | Share Claude Code sessions as GitHub gists |
+| [session-gist](plugins/session-gist) | The gist of each session at a glance: a Haiku summary in the footer and a `/gist` detail pane |
 
 ## Adding a plugin
 

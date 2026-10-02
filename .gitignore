@@ -3,3 +3,7 @@ node_modules/
 
 # Written by Claude Code on each mod load; build-specific
 plugins/*/.claude-plugin/types/
+*.zip
+
+# Claude Code worktrees for parallel sessions
+.claude/worktrees/

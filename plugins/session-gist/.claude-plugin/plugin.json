@@ -1,9 +1,10 @@
 {
   "name": "session-gist",
   "version": "0.1.0",
-  "description": "Share Claude Code sessions as GitHub gists",
+  "description": "The gist of each Claude Code session at a glance: a Haiku summary in the footer and a detail pane",
   "author": {
     "name": "Jason Sims",
     "email": "hello@jsonsims.com"
-  }
+  },
+  "types": "./types/index.d.ts"
 }
