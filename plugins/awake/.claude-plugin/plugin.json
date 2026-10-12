@@ -1,0 +1,12 @@
+{
+  "name": "awake",
+  "version": "0.1.0",
+  "description": "Keep the Mac awake while Claude works, per session, only when you ask: /awake on, /awake off",
+  "author": {
+    "name": "Jason Sims",
+    "email": "hello@jsonsims.com"
+  },
+  "homepage": "https://github.com/jasonsims/claude-plugins/tree/main/plugins/awake",
+  "repository": "https://github.com/jasonsims/claude-plugins",
+  "keywords": ["caffeinate", "sleep", "macos", "awake"]
+}

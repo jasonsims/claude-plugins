@@ -22,6 +22,20 @@
       "repository": "https://github.com/jasonsims/claude-plugins",
       "keywords": ["session", "summary", "status", "haiku", "mod"],
       "category": "productivity"
+    },
+    {
+      "name": "awake",
+      "source": "./plugins/awake",
+      "description": "Keep the Mac awake while Claude works, per session, only when you ask: /awake on, /awake off",
+      "version": "0.1.0",
+      "author": {
+        "name": "Jason Sims",
+        "email": "hello@jsonsims.com"
+      },
+      "homepage": "https://github.com/jasonsims/claude-plugins/tree/main/plugins/awake",
+      "repository": "https://github.com/jasonsims/claude-plugins",
+      "keywords": ["caffeinate", "sleep", "macos", "awake"],
+      "category": "productivity"
     }
   ]
 }

@@ -19,6 +19,7 @@ claude plugin update session-gist@jasonsims
 | Plugin | Description |
 | --- | --- |
 | [session-gist](plugins/session-gist) | The gist of each session at a glance: a Haiku summary in the footer and a `/gist` detail pane |
+| [awake](plugins/awake) | Keep the Mac awake while Claude works, per session, only when you ask: `/awake on`, `/awake off` |
 
 ## Adding a plugin
 
