@@ -1,0 +1,12 @@
+{
+  "name": "dev",
+  "version": "0.1.0",
+  "description": "Skills for everyday dev work, starting with a first-pass PR review",
+  "author": {
+    "name": "Jason Sims",
+    "email": "hello@jsonsims.com"
+  },
+  "homepage": "https://github.com/jasonsims/claude-plugins/tree/main/plugins/dev",
+  "repository": "https://github.com/jasonsims/claude-plugins",
+  "keywords": ["dev", "review", "pull-request", "code-review", "github"]
+}
