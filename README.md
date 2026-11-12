@@ -19,6 +19,7 @@ claude plugin update session-gist@jasonsims
 | Plugin | Description |
 | --- | --- |
 | [session-gist](plugins/session-gist) | The gist of each session at a glance: a Haiku summary in the footer and a `/gist` detail pane |
+| [dev](plugins/dev) | Skills for everyday dev work: `/dev:review` for a first-pass PR review |
 
 ## Adding a plugin
 
